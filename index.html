@@ -13,34 +13,127 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="/boostrap/mystyle/base.css">
     <link rel="stylesheet" href="/boostrap/mystyle/style.css">
+    <link rel="stylesheet" href="boostrap/fonticon/fontawesome-free-6.2.0-web/css/all.min.css">
     <!--su dung extensions html classes suggestion -->
 </head>
 
 <body>
-  <header class="header bg-success position-fixed w-100 top-0">
+  <header class="header bg-warning position-fixed w-100 top-0">
     <div class="container">
-        <div class="navbar text-white">
-            <div class="nav__logo">logo</div>
-            <div class="nav__menu d-flex list-unstyled gap-4">
-                <li class="nav__menu__item"><a href="#" class="nav__menu__link text-white text-decoration-none">About</a></li>
-                <li class="nav__menu__item"><a href="#" class="nav__menu__link text-white text-decoration-none">Services</a></li>
-                <li class="nav__menu__item"><a href="#" class="nav__menu__link text-white text-decoration-none">Portfolio</a></li>
-                <li class="nav__menu__item"><a href="#" class="nav__menu__link text-white text-decoration-none">Pricing</a></li>
-                <li class="nav__menu__item"><a href="#" class="nav__menu__link text-white text-decoration-none">Contact</a></li>
+        <div class="navbar text-black">
+            <div class="nav__logo user-select-none">logo</div>
+            <div class="nav__menu d-flex list-unstyled gap-4 user-select-none">
+                <li class="nav__menu__item"><a href="#" class="nav__menu__link text-black text-decoration-none">About</a></li>
+                <li class="nav__menu__item"><a href="#" class="nav__menu__link  text-black text-decoration-none">Services</a></li>
+                <li class="nav__menu__item"><a href="#" class="nav__menu__link  text-black text-decoration-none">Portfolio</a></li>
+                <li class="nav__menu__item"><a href="#" class="nav__menu__link  text-black text-decoration-none">Pricing</a></li>
+                <li class="nav__menu__item"><a href="#" class="nav__menu__link  text-black text-decoration-none">Contact</a></li>
             </div>
         </div>
     </div>
   </header>
-  <div class="banner">
-    <div class="banner__container">
-        item
+  <div class="container banner_container">
+    <form action="#" class="banner_form d-flex align-items-center shadow-lg">
+      <input type="text" name="banner_search" id="banner_search" placeholder="Search your item..." class="banner_form_input p-2 flex-grow-1 border-0">
+      <div class="from_icon bg-warning">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </form>
+    <div class="banner bg-danger">
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img src="https://dcassetcdn.com/design_img/579303/183893/183893_3834938_579303_image.jpg" class="w-100 d-block" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img src="https://dcassetcdn.com/design_img/579303/183893/183893_3864713_579303_image.jpg" class="w-100 d-block" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.lenspick.com/blog/wp-content/uploads/2015/03/glasses.jpg" class="w-100 d-block" alt="Third slide">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+          </button>
+      </div>
     </div>
   </div>
-  <main>
-
+  <main class="container">
+    <section class="about">
+      <h2 class="heading">about</h2>
+      <div class="row">
+        <div class=" col col-8">noidung</div>
+        <div class=" col col-4">hinh anh dai dien</div>
+      </div>
+    </section>
+    <section class="about">
+      <h2 class="heading">Services</h2>
+      <div class="row">
+        <div class="col col-4">noidung</div>
+        <div class="col col-4">noidung</div>
+        <div class="col col-4">noidung</div>
+      </div>
+    </section>
+    <section class="about">
+      <h2 class="heading">Portfolio</h2>
+      <div class="row">
+        <div class="col col-4">noidung</div>
+        <div class="col col-4">noidung</div>
+        <div class="col col-4">noidung</div>
+      </div>
+      <div class="row">
+        y khien khach hang
+      </div>
+    </section>
+    <section class="about">
+      <h2 class="heading">Pricing</h2>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <h2 class="heading">Contact</h2>
+      <div class="row">
+        <div class="col col-6">noidung</div>
+        <div class="col col-6">noidung</div>
+      </div>
+    </section>
   </main>
-  <footer>
-    <!-- place footer here -->
+  <footer class="bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col col-6">cuahng</div>
+        <div class="col col-6">lien ket mang xa hoi</div>
+      </div>
+      <div class="footer__licent">ban quyen</div>
+    </div>
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="./jquery/main.js"></script>
