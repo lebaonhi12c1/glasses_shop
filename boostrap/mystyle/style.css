@@ -34,3 +34,40 @@
     height: 400px;
     overflow: hidden;
 }
+.about_img{
+    object-fit: cover;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+}
+.about_heading_content{
+    font-size: 30px;
+    font-style: unset;
+}
+.about_content{
+    display: flex;
+    flex-direction: column;
+}
+.about_link{
+    margin-left:auto ;
+}
+.service_icon{
+    text-align: center;
+    font-size: 80px;
+    
+}
+.service_title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.service_content{
+    display: flex;
+    flex-direction: column;
+}
+.service_link{
+    margin-left: auto;
+    color: red;
+}
