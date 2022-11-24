@@ -71,3 +71,48 @@
     margin-left: auto;
     color: red;
 }
+.portfolio_img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.portfolio_link{
+    display: flex;
+    justify-content: flex-end;
+}
+.pricing_price{
+    font-size: 30px;
+}
+.logo{
+    width: 100px;;
+    object-fit: cover;
+}
+.contact_heading{
+    text-align: center;
+
+}
+.contact_info_list{
+    list-style: none;
+
+}
+.contact_info_item{
+    padding: 5px;
+}
+.social_list{
+    list-style: none;
+}
+.social_list_item{
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+    transition: transform ease-in-out 0.3s;
+}
+.social_list_item:hover{
+    color: yellow;
+    transform: translateX(5px);
+}
+.about{
+    margin-top: 200px !important;
+}
