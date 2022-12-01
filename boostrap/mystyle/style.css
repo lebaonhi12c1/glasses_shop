@@ -116,3 +116,25 @@
 .about{
     margin-top: 200px !important;
 }
+.category_item{
+    position: relative;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.btn_shopnow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner_item{
+    position: relative;
+}
+.banner_title{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 60px;
+    font-weight: 700;
+}
