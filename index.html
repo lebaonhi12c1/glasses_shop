@@ -1,136 +1,242 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Glasses_shop</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <title>Glasses_shop</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
-    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <link rel="stylesheet" href="/boostrap/mystyle/base.css">
-  <link rel="stylesheet" href="/boostrap/mystyle/style.css">
-  <link rel="stylesheet" href="boostrap/fonticon/fontawesome-free-6.2.0-web/css/all.min.css">
-  <!--su dung extensions html classes suggestion
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="/boostrap/mystyle/base.css" />
+    <link rel="stylesheet" href="/boostrap/mystyle/style.css" />
+    <link
+      rel="stylesheet"
+      href="boostrap/fonticon/fontawesome-free-6.2.0-web/css/all.min.css"
+    />
+    <!--su dung extensions html classes suggestion
   https://dmei.org/services/
-  -->
-</head>
+  --></head>
 
-<body>
-  <header class="header bg-warning position-fixed w-100 top-0">
-    <div class="container">
-      <div class="navbar text-black">
-        <div class="nav__logo user-select-none"><img src="/image/kSvInInOyjFtPmb.png" alt="" class="logo"></div>
-        <div class="nav__menu d-flex list-unstyled gap-4 user-select-none">
-          <li class="nav__menu__item"><a href="about.html" class="nav__menu__link text-black text-decoration-none">About</a></li>
-          <li class="nav__menu__item"><a href="service.html" class="nav__menu__link  text-black text-decoration-none">Services</a>
-          </li>
-          <li class="nav__menu__item"><a href="portfolio.html" class="nav__menu__link  text-black text-decoration-none">Portfolio</a>
-          </li>
-          <li class="nav__menu__item"><a href="pricing.html" class="nav__menu__link  text-black text-decoration-none">Pricing</a>
-          </li>
-          <li class="nav__menu__item"><a href="contact.html" class="nav__menu__link  text-black text-decoration-none">Contact</a>
-          </li>
-          <li class="nav__menu__item"><a href="product.html" class="nav__menu__link  text-black text-decoration-none">Product</a>
-          </li>
-        </div>
-      </div>
-    </div>
-  </header>
-  <div class="container banner_container">
-    <form action="#" class="banner_form d-flex align-items-center shadow-lg">
-      <input type="text" name="banner_search" id="banner_search" placeholder="Search your item..."
-        class="banner_form_input p-2 flex-grow-1 border-0">
-      <div class="from_icon bg-warning">
-        <i class="fa-solid fa-magnifying-glass"></i>
-      </div>
-    </form>
-    <div class="banner bg-danger">
-      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
-            aria-label="First slide"></li>
-          <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-          <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <img src="https://dcassetcdn.com/design_img/579303/183893/183893_3834938_579303_image.jpg"
-              class="w-100 d-block" alt="First slide">
+  <body>
+    <header class="header bg-warning position-fixed w-100 top-0">
+      <div class="container">
+        <div class="navbar text-black">
+          <div class="nav__logo user-select-none">
+            <img src="/image/kSvInInOyjFtPmb.png" alt="" class="logo" />
           </div>
-          <div class="carousel-item">
-            <img src="https://dcassetcdn.com/design_img/579303/183893/183893_3864713_579303_image.jpg"
-              class="w-100 d-block" alt="Second slide">
+          <div class="nav__menu d-flex list-unstyled gap-4 user-select-none">
+            <li class="nav__menu__item">
+              <a
+                href="about.html"
+                class="nav__menu__link text-black text-decoration-none"
+                >About</a
+              >
+            </li>
+            <li class="nav__menu__item">
+              <a
+                href="service.html"
+                class="nav__menu__link text-black text-decoration-none"
+                >Services</a
+              >
+            </li>
+            <li class="nav__menu__item">
+              <a
+                href="portfolio.html"
+                class="nav__menu__link text-black text-decoration-none"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav__menu__item">
+              <a
+                href="pricing.html"
+                class="nav__menu__link text-black text-decoration-none"
+                >Pricing</a
+              >
+            </li>
+            <li class="nav__menu__item">
+              <a
+                href="contact.html"
+                class="nav__menu__link text-black text-decoration-none"
+                >Contact</a
+              >
+            </li>
+            <li class="nav__menu__item">
+              <a
+                href="product.html"
+                class="nav__menu__link text-black text-decoration-none"
+                >Product</a
+              >
+            </li>
           </div>
-          <div class="carousel-item">
-            <img src="https://www.lenspick.com/blog/wp-content/uploads/2015/03/glasses.jpg" class="w-100 d-block"
-              alt="Third slide">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-  </div>
-  <div class="category container">
-    <div class="row mt-5">
-      <div class="col col-4">
-        <div class="category_item">
-          <img src="https://product.hstatic.net/1000160277/product/floralpunk_11-5-10_0203d457cc3a46bb996fe1fa0436137f_1024x1024.jpg" alt="category_img" width="100%" height="400px">
-          <div class="btn_shopnow btn btn-danger">SHOP NOW</div>
         </div>
       </div>
-      <div class="col col-4">
-        <div class="category_item">
-          <img src="https://product.hstatic.net/1000160277/product/lay_black_2_ff5aca6e08ff41d3add4d78f65a2140f_1024x1024.jpg" alt="category_img" width="100%" height="400px">
-          <div class="btn_shopnow btn btn-danger">SHOP NOW</div>
+    </header>
+    <div class="container banner_container">
+      <form action="#" class="banner_form d-flex align-items-center shadow-lg">
+        <input
+          type="text"
+          name="banner_search"
+          id="banner_search"
+          placeholder="Search your item..."
+          class="banner_form_input p-2 flex-grow-1 border-0"
+        />
+        <div class="from_icon bg-warning">
+          <i class="fa-solid fa-magnifying-glass"></i>
         </div>
-      </div>
-      <div class="col col-4">
-        <div class="category_item">
-          <img src="https://cf.shopee.vn/file/sg-11134201-22110-a97vivh1vzjv0a" alt="category_img" width="100%" height="400px">
-          <div class="btn_shopnow btn btn-danger">SHOP NOW</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <main class="container">
-    <section class="about my-4">
-      <h2 class="heading">About</h2>
-      <div class="row">
-        <div class=" col col-8">
-          <div class="about_content flex-column">
-            <div class="about_heading_content text-lg-center text-danger">WELLCOM TO GLASSES SHOP</div>
-            <div class="about_description">
-              Glasses are typically used for vision correction, such as with reading glasses and glasses used for
-              nearsightedness; however, without the specialized lenses, they are sometimes used for cosmetic purposes.
+      </form>
+      <div class="banner bg-danger">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li
+              data-bs-target="#carouselId"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="First slide"
+            ></li>
+            <li
+              data-bs-target="#carouselId"
+              data-bs-slide-to="1"
+              aria-label="Second slide"
+            ></li>
+            <li
+              data-bs-target="#carouselId"
+              data-bs-slide-to="2"
+              aria-label="Third slide"
+            ></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img
+                src="https://dcassetcdn.com/design_img/579303/183893/183893_3834938_579303_image.jpg"
+                class="w-100 d-block"
+                alt="First slide"
+              />
             </div>
-            <a href="./about.html" class=" about_link text-danger">View more to about glasses shop</a>
+            <div class="carousel-item">
+              <img
+                src="https://dcassetcdn.com/design_img/579303/183893/183893_3864713_579303_image.jpg"
+                class="w-100 d-block"
+                alt="Second slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://www.lenspick.com/blog/wp-content/uploads/2015/03/glasses.jpg"
+                class="w-100 d-block"
+                alt="Third slide"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="category container">
+      <div class="row mt-5">
+        <div class="col col-4">
+          <div class="category_item">
+            <img
+              src="https://product.hstatic.net/1000160277/product/floralpunk_11-5-10_0203d457cc3a46bb996fe1fa0436137f_1024x1024.jpg"
+              alt="category_img"
+              width="100%"
+              height="400px"
+            />
+            <div class="btn_shopnow btn btn-danger">SHOP NOW</div>
           </div>
         </div>
-        <div class=" col col-4">
-          <div class="about_img_box  overflow-hidden">
-            <img src="./image/514e2618929a435217c732cb4be71709.png" alt="about_img" class="about_img">
+        <div class="col col-4">
+          <div class="category_item">
+            <img
+              src="https://product.hstatic.net/1000160277/product/lay_black_2_ff5aca6e08ff41d3add4d78f65a2140f_1024x1024.jpg"
+              alt="category_img"
+              width="100%"
+              height="400px"
+            />
+            <div class="btn_shopnow btn btn-danger">SHOP NOW</div>
+          </div>
+        </div>
+        <div class="col col-4">
+          <div class="category_item">
+            <img
+              src="https://cf.shopee.vn/file/sg-11134201-22110-a97vivh1vzjv0a"
+              alt="category_img"
+              width="100%"
+              height="400px"
+            />
+            <div class="btn_shopnow btn btn-danger">SHOP NOW</div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="about my-4">
-      <h2 class="heading">Services</h2>
-      <div class="row">
-        <div class="col col-4">
-          <div class="service_content">
+    </div>
+    <main class="container">
+      <section class="about my-4">
+        <h2 class="heading">About</h2>
+        <div class="row">
+          <div class="col col-8">
+            <div class="about_content flex-column">
+              <div class="about_heading_content text-lg-center text-danger">
+                WELLCOM TO GLASSES SHOP
+              </div>
+              <div class="about_description">
+                Glasses are typically used for vision correction, such as with
+                reading glasses and glasses used for nearsightedness; however,
+                without the specialized lenses, they are sometimes used for
+                cosmetic purposes.
+              </div>
+              <a href="./about.html" class="about_link text-danger"
+                >View more to about glasses shop</a
+              >
+            </div>
+          </div>
+          <div class="col col-4">
+            <div class="about_img_box overflow-hidden">
+              <img
+                src="./image/514e2618929a435217c732cb4be71709.png"
+                alt="about_img"
+                class="about_img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about my-4">
+        <h2 class="heading">Services</h2>
+        <div class="row">
+          <div class="col col-4">
+            <div class="service_content">
               <div class="service_icon">
                 <i class="fa-solid fa-wrench"></i>
               </div>
@@ -138,269 +244,495 @@
                 We can fix any problem from your glasses
               </div>
               <div class="service_description">
-                You have a problem your glasses and you dont know how to fix it, dont worry because we in there to handle your problem, We can fix any problem from your glasses, all you have to do is trust us
+                You have a problem your glasses and you dont know how to fix it,
+                dont worry because we in there to handle your problem, We can
+                fix any problem from your glasses, all you have to do is trust
+                us
               </div>
               <a href="./service.html" class="service_link">View details</a>
+            </div>
           </div>
-        </div>
-        <div class="col col-4">
-          <div class="service_content">
+          <div class="col col-4">
+            <div class="service_content">
               <div class="service_icon">
                 <i class="fa-sharp fa-solid fa-bag-shopping"></i>
               </div>
-              <div class="service_title">
-                Buy glasses in shop now
-              </div>
+              <div class="service_title">Buy glasses in shop now</div>
               <div class="service_description">
-                Here we provide the latest eyewear products and products, many styles, models, colors, you can freely choose for yourself a pair of glasses at a reasonable price in our shop
+                Here we provide the latest eyewear products and products, many
+                styles, models, colors, you can freely choose for yourself a
+                pair of glasses at a reasonable price in our shop
               </div>
               <a href="./service.html" class="service_link">View details</a>
+            </div>
           </div>
-        </div>
-        <div class="col col-4">
-          <div class="service_content">
+          <div class="col col-4">
+            <div class="service_content">
               <div class="service_icon">
                 <i class="fa-solid fa-truck-fast"></i>
               </div>
-              <div class="service_title">
-                Fast delivery
-              </div>
+              <div class="service_title">Fast delivery</div>
               <div class="service_description">
-                Our store has additional delivery services, our product specifics are linked with many delivery services to get your items fastest, and have more discounts, sometimes free. fee if customer chooses our delivery service
+                Our store has additional delivery services, our product
+                specifics are linked with many delivery services to get your
+                items fastest, and have more discounts, sometimes free. fee if
+                customer chooses our delivery service
               </div>
               <a href="./service.html" class="service_link">View details</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="about my-4">
-      <h2 class="heading">Portfolio</h2>
-      <div class="row">
-        <div class="col col-4">
-          <div class="portfolio_content">
-            <img src="/image/1586583703_warranty_1_by_1.png" alt="portfolio_img"class="portfolio_img">
-            <div class="portfolio_description">Warranty is the seller's written assurance of the goods sold to the purchaser (consumer) Artificial or substitute product if under the conditions committed by the seller.</div>
-            <a href="./portfolio.html" class="portfolio_link text-danger">View details</a>
-          </div>
-        </div>
-        <div class="col col-4">
-          <div class="portfolio_content">
-            <img src="/image/giaohannhantoanquoc.webp" alt="portfolio_img"class="portfolio_img">
-            <div class="portfolio_description">Express delivery service is the service of transporting goods, parcels or telegrams, letters from one place to another in the fastest time possible. The demand for this fast delivery is increasing, so more and more express delivery companies are established to perform this task.</div>
-            <a href="./portfolio.html" class="portfolio_link text-danger">View details</a>
-          </div>
-        </div>
-        <div class="col col-4">
-          <div class="portfolio_content">
-            <img src="image/giarepro.webp" alt="portfolio_img"class="portfolio_img">
-            <div class="portfolio_description">Product discounting strategies are ubiquitous. We've all seen stores, supermarkets, commercial centers... offering preferential programs such as: "buy one, get one free", super promotions on the occasion of Liberation... done with the right method, at the right time, will quickly return the results to the business and end the loyalty from customers.</div>
-            <a href="./portfolio.html" class="portfolio_link text-danger">View details</a>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <img src="/image/baohanh.jpg" class="d-block w-100" alt="..."> class="portfolio_img
-              <div class="carousel-caption d-none d-md-block text-white">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-              </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img src="/image/giahangnhan.webp" class="d-block w-100" alt="..." class="portfolio_img">
-              <div class="carousel-caption d-none d-md-block text-white">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="http://d3design.vn/uploads/%C3%A8doirrfjw3432.jpg" alt="..." class="portfolio_img"|>
-              <div class="carousel-caption d-none d-md-block text-white">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
-      </div>
-    </section>
-    <section class="about my-4">
-      <h2 class="heading">Pricing</h2>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title text-center">
-                Warranty Policy</h5>
-              <div class="pricing_price text-center text-danger">9.0$</div>
-              <p class="card-text">Warranty is the seller's written assurance of the goods sold to the purchaser (consumer) Artificial or substitute product if under the conditions committed by the seller.</p>
-              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Submit
-              </button>
-              
-              <!-- Modal -->
-              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">Customer's Info</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <form class="row g-3">
-                        <div class="col-md-4">
-                          <label for="validationDefault01" class="form-label">Full Name</label>
-                          <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
-                        </div>
-                        <div class="col-md-4">
-                          <label for="validationDefault02" class="form-label">Last name</label>
-                          <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
-                        </div>
-                        <div class="col-md-4">
-                          <label for="validationDefaultUsername" class="form-label">Username</label>
-                          <div class="input-group">
-                            <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                            <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+      </section>
+      <section class="about my-4">
+        <h2 class="heading">Portfolio</h2>
+        <div class="row">
+          <div class="col col-4">
+            <div class="portfolio_content">
+              <img
+                src="/image/1586583703_warranty_1_by_1.png"
+                alt="portfolio_img"
+                class="portfolio_img"
+              />
+              <div class="portfolio_description">
+                Warranty is the seller's written assurance of the goods sold to
+                the purchaser (consumer) Artificial or substitute product if
+                under the conditions committed by the seller.
+              </div>
+              <a href="./portfolio.html" class="portfolio_link text-danger"
+                >View details</a
+              >
+            </div>
+          </div>
+          <div class="col col-4">
+            <div class="portfolio_content">
+              <img
+                src="/image/giaohannhantoanquoc.webp"
+                alt="portfolio_img"
+                class="portfolio_img"
+              />
+              <div class="portfolio_description">
+                Express delivery service is the service of transporting goods,
+                parcels or telegrams, letters from one place to another in the
+                fastest time possible. The demand for this fast delivery is
+                increasing, so more and more express delivery companies are
+                established to perform this task.
+              </div>
+              <a href="./portfolio.html" class="portfolio_link text-danger"
+                >View details</a
+              >
+            </div>
+          </div>
+          <div class="col col-4">
+            <div class="portfolio_content">
+              <img
+                src="image/giarepro.webp"
+                alt="portfolio_img"
+                class="portfolio_img"
+              />
+              <div class="portfolio_description">
+                Product discounting strategies are ubiquitous. We've all seen
+                stores, supermarkets, commercial centers... offering
+                preferential programs such as: "buy one, get one free", super
+                promotions on the occasion of Liberation... done with the right
+                method, at the right time, will quickly return the results to
+                the business and end the loyalty from customers.
+              </div>
+              <a href="./portfolio.html" class="portfolio_link text-danger"
+                >View details</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            id="carouselExampleDark"
+            class="carousel carousel-dark slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="/image/baohanh.jpg" class="d-block w-100" alt="..." />
+                class="portfolio_img
+                <div class="carousel-caption d-none d-md-block text-white">
+                  <h5>First slide label</h5>
+                  <p>
+                    Some representative placeholder content for the first slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="/image/giahangnhan.webp"
+                  class="d-block w-100"
+                  alt="..."
+                  class="portfolio_img"
+                />
+                <div class="carousel-caption d-none d-md-block text-white">
+                  <h5>Second slide label</h5>
+                  <p>
+                    Some representative placeholder content for the second
+                    slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="http://d3design.vn/uploads/%C3%A8doirrfjw3432.jpg"
+                  alt="..."
+                  class="portfolio_img"
+                  |
+                />
+                <div class="carousel-caption d-none d-md-block text-white">
+                  <h5>Third slide label</h5>
+                  <p>
+                    Some representative placeholder content for the third slide.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="about my-4">
+        <h2 class="heading">Pricing</h2>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">Warranty Policy</h5>
+                <div class="pricing_price text-center text-danger">9.0$</div>
+                <p class="card-text">
+                  Warranty is the seller's written assurance of the goods sold
+                  to the purchaser (consumer) Artificial or substitute product
+                  if under the conditions committed by the seller.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Submit
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">
+                          Customer's Info
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <form class="row g-3">
+                          <div class="col-md-4">
+                            <label for="validationDefault01" class="form-label"
+                              >Full Name</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="validationDefault01"
+                              value="Mark"
+                              required
+                            />
                           </div>
-                        </div>
-                        <div class="col-md-6">
-                          <label for="validationDefault03" class="form-label">City</label>
-                          <input type="text" class="form-control" id="validationDefault03" required>
-                        </div>
-                        <div class="form-floating">
-                          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                          <label for="floatingTextarea2">Comments</label>
-                        </div>
-                        <div class="col-12">
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                            <label class="form-check-label" for="invalidCheck2">
-                              Warranty Policy
-                            </label>
-                          
+                          <div class="col-md-4">
+                            <label for="validationDefault02" class="form-label"
+                              >Last name</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="validationDefault02"
+                              value="Otto"
+                              required
+                            />
                           </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck3" required>
-                            <label class="form-check-label" for="invalidCheck3">
-                              Member
-                            </label>
-                          
+                          <div class="col-md-4">
+                            <label
+                              for="validationDefaultUsername"
+                              class="form-label"
+                              >Username</label
+                            >
+                            <div class="input-group">
+                              <span
+                                class="input-group-text"
+                                id="inputGroupPrepend2"
+                                >@</span
+                              >
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="validationDefaultUsername"
+                                aria-describedby="inputGroupPrepend2"
+                                required
+                              />
+                            </div>
                           </div>
-                        </div>
-                        <div class="col-12">
-                          <button class="btn btn-primary" type="submit">Submit form</button>
-                        </div>
-                      </form>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Understood</button>
+                          <div class="col-md-6">
+                            <label for="validationDefault03" class="form-label"
+                              >City</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="validationDefault03"
+                              required
+                            />
+                          </div>
+                          <div class="form-floating">
+                            <textarea
+                              class="form-control"
+                              placeholder="Leave a comment here"
+                              id="floatingTextarea2"
+                              style="height: 100px"
+                            ></textarea>
+                            <label for="floatingTextarea2">Comments</label>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-check">
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                value=""
+                                id="invalidCheck2"
+                                required
+                              />
+                              <label
+                                class="form-check-label"
+                                for="invalidCheck2"
+                              >
+                                Warranty Policy
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                value=""
+                                id="invalidCheck3"
+                                required
+                              />
+                              <label
+                                class="form-check-label"
+                                for="invalidCheck3"
+                              >
+                                Member
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <button class="btn btn-primary" type="submit">
+                              Submit form
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Understood
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title text-center">
-                Member</h5>
-              <div class="pricing_price text-center text-danger">9.0$</div>
-              <p class="card-text">Members can be understood as the owners or co-owners of the company. Members of the company are one of the core entities that form the company as well as its operations. Ownership rights to the company of a company member are determined according to the capital contribution ratio of each member.</p>
-              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Submit
-              </button>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">Member</h5>
+                <div class="pricing_price text-center text-danger">9.0$</div>
+                <p class="card-text">
+                  Members can be understood as the owners or co-owners of the
+                  company. Members of the company are one of the core entities
+                  that form the company as well as its operations. Ownership
+                  rights to the company of a company member are determined
+                  according to the capital contribution ratio of each member.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Submit
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="about my-4">
-      <h2 class="heading">Contact</h2>
-      <div class="row">
-        <div class="col col-6">
-          <div class="contact_info">
-            <h3 class="contact_heading">Glasses Shop</h3>
-            <ul class="contact_info_list">
-              <li class="contact_info_item">glasess_shop@gmail.com</li>
-              <li class="contact_info_item">+840909990909</li>
-              <li class="contact_info_item">Some concepts that when studying legal science in some countries show:
-                According to France, “A company is a contract through which two or more people agree to use their assets or capabilities in a common activity in order to share the profits obtained through that activity”.</li>
-            </ul>
+      </section>
+      <section class="about my-4">
+        <h2 class="heading">Contact</h2>
+        <div class="row">
+          <div class="col col-6">
+            <div class="contact_info">
+              <h3 class="contact_heading">Glasses Shop</h3>
+              <ul class="contact_info_list">
+                <li class="contact_info_item">glasess_shop@gmail.com</li>
+                <li class="contact_info_item">+840909990909</li>
+                <li class="contact_info_item">
+                  Some concepts that when studying legal science in some
+                  countries show: According to France, “A company is a contract
+                  through which two or more people agree to use their assets or
+                  capabilities in a common activity in order to share the
+                  profits obtained through that activity”.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col col-6">
+            <form>
+              <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label"
+                  >Email</label
+                >
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" />
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label"
+                  >FullName</label
+                >
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputPassword3" />
+                </div>
+              </div>
+              <div class="form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea"
+                ></textarea>
+                <label for="floatingTextarea">Comments</label>
+              </div>
+              <button type="submit" class="btn btn-danger mt-3">Submit</button>
+            </form>
           </div>
         </div>
-        <div class="col col-6">
-          <form>
-            <div class="row mb-3">
-              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-              <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3">
-              </div>
+      </section>
+    </main>
+    <footer class="bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col col-6">
+            <div class="footer_info">
+              <ul class="contact_info_list">
+                <li class="contact_info_item">glasess_shop@gmail.com</li>
+                <li class="contact_info_item">+840909990909</li>
+                <li class="contact_info_item">
+                  Some concepts that when studying legal science in some
+                  countries show: According to France, “A company is a contract
+                  through which two or more people agree to use their assets or
+                  capabilities in a common activity in order to share the
+                  profits obtained through that activity”.
+                </li>
+              </ul>
             </div>
-            <div class="row mb-3">
-              <label for="inputPassword3" class="col-sm-2 col-form-label">FullName</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputPassword3">
-              </div>
+          </div>
+          <div class="col col-6">
+            <div class="footer_social_media">
+              <ul class="social_list">
+                <li class="social_list_item">
+                  <i class="fab fa-facebook"></i> FACEBOOK
+                </li>
+                <li class="social_list_item">
+                  <i class="fab fa-instagram"></i> INSTAGRAM
+                </li>
+                <li class="social_list_item">
+                  <i class="fab fa-square-twitter"></i>TWITTER
+                </li>
+              </ul>
             </div>
-            <div class="form-floating">
-              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-              <label for="floatingTextarea">Comments</label>
-            </div>
-            <button type="submit" class="btn btn-danger mt-3">Submit</button>
-          </form>
+          </div>
         </div>
+        <div class="footer__licent text-center">@Copyring by glasses_shop</div>
       </div>
-    </section>
-  </main>
-  <footer class="bg-dark text-white">
-    <div class="container">
-      <div class="row">
-        <div class="col col-6"><div class="footer_info">
-          <ul class="contact_info_list">
-            <li class="contact_info_item">glasess_shop@gmail.com</li>
-            <li class="contact_info_item">+840909990909</li>
-            <li class="contact_info_item">Some concepts that when studying legal science in some countries show:
-              According to France, “A company is a contract through which two or more people agree to use their assets or capabilities in a common activity in order to share the profits obtained through that activity”.</li>
-          </ul>
-        </div></div>
-        <div class="col col-6"><div class="footer_social_media">
-          <ul class="social_list">
-            <li class="social_list_item"><i class="fab fa-facebook"></i> FACEBOOK</li>
-            <li class="social_list_item"><i class="fab  fa-instagram"></i> INSTAGRAM</li>
-            <li class="social_list_item"><i class="fab fa-square-twitter"></i>TWITTER</li>
-          </ul>
-        </div></div>
-      </div>
-      <div class="footer__licent text-center">@Copyring by glasses_shop</div>
-    </div>
-  </footer>
-  <!-- Bootstrap JavaScript Libraries -->
-  <script src="./jquery/main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-    </script>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="./jquery/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-    </script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
