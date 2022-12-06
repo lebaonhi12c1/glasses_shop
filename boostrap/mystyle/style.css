@@ -176,3 +176,36 @@
 .cart_total{
     font-size: 20px;
 }
+.pagination a {
+    color: black;
+    float: left;
+    padding: 12px 18px;
+    text-decoration: none;
+    }
+    /* set the style for the active class */
+    .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+    /*Circle Design with CSS*/
+    border-radius: 50%;
+    }
+    /* add background color when user hovers on inactive class */
+    .pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 50%;
+    }
+.toTop{
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
