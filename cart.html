@@ -111,49 +111,54 @@
             alt="banner_img"
           />
         </div>
-        <span class="banner_title">CONTACT US</span>
+        <span class="banner_title">CART</span>
       </div>
     </div>
     <main>
       <div class="container my-5">
         <div class="row">
             <div class="col col-sm-8 col-12">
-                <div class="contact_content">
-                    <form>
-                        <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                        </div>
-                        <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Name</label>
-                          <input type="text" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="form-floating">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                            <label for="floatingTextarea2">Comments</label>
-                          </div>
-                        <button type="submit" class="btn btn-danger mt-2">Contact</button>
-                      </form>
+                <div class="content">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Image</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Quality
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row"><img src="https://www.cutlerandgross.com/media/catalog/product/cache/c1ae99dd38a05cc0e620ef70bcc04dfe/g/f/gfsn-003-53-02_01_1.jpg" width="60px" alt=""></th>
+                            <td>Great frog "Crossbones"</td>
+                            <td>490,000 vnd</td>
+                            <td>
+                              <div class="d-flex">
+                                <i class="fa fa-add"></i>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                        </tbody>
+                      </table>
                 </div>
             </div>
             <div class="col col-sm-4 col-12">
-                <div class="contact_address">
-                    <div class="address_item list-unstyled mt-3">
-                        <li class="address_item_content"><i class="fa fa-location-arrow"></i>3454 Trương Văn Nghĩa, Quận 1, Hồ Chí Minh</li>
-                        <li class="address_item_content">admin@gmail.com</li>
-                        <li class="address_item_content">+84123654927</li>
-                    </div>
-                    <div class="address_item list-unstyled mt-3">
-                        <li class="address_item_content"><i class="fa fa-location-arrow"></i>3454 Trương Văn Nghĩa, Quận 1, Hồ Chí Minh</li>
-                        <li class="address_item_content">admin@gmail.com</li>
-                        <li class="address_item_content">+84123654927</li>
-                    </div>
-                    <div class="address_item list-unstyled mt-3">
-                        <li class="address_item_content"><i class="fa fa-location-arrow"></i>3454 Trương Văn Nghĩa, Quận 1, Hồ Chí Minh</li>
-                        <li class="address_item_content">admin@gmail.com</li>
-                        <li class="address_item_content">+84123654927</li>
-                    </div>
+                <div class="cart d-flex align-items-center justify-content-center flex-column">
+                    <h4 class="cart_heading text-center text-warning">SUMARY</h4>
+                    <span class="cart_total">Total:</span><span class="cart_total text-danger">490,0000 vnd</span>
                 </div>
             </div>
         </div>
