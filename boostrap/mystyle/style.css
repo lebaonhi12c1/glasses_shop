@@ -212,3 +212,7 @@
 .avtive_header{
     color: white  !important;
 }
+.mobile{
+    display: flex;
+    flex-direction: column;
+}

@@ -82,6 +82,13 @@
                 id="cart">Cart</a
               >
             </li>
+            <li class="nav__menu__item">
+              <a
+                href="login.html"
+                class="nav__menu__link text-black text-decoration-none"
+                id="cart">Login</a
+              >
+            </li>
           </div>
         </div>
       </div>
@@ -166,7 +173,7 @@
     </div>
     <div class="category container">
       <div class="row mt-5">
-        <div class="col col-4">
+        <div class="col col-sm-4 col-12">
           <div class="category_item">
             <img
               src="https://product.hstatic.net/1000160277/product/floralpunk_11-5-10_0203d457cc3a46bb996fe1fa0436137f_1024x1024.jpg"
@@ -177,7 +184,7 @@
             <div class="btn_shopnow btn btn-danger">SHOP NOW</div>
           </div>
         </div>
-        <div class="col col-4">
+        <div class="col col-sm-4 col-12">
           <div class="category_item">
             <img
               src="https://product.hstatic.net/1000160277/product/lay_black_2_ff5aca6e08ff41d3add4d78f65a2140f_1024x1024.jpg"
@@ -188,7 +195,7 @@
             <div class="btn_shopnow btn btn-danger">SHOP NOW</div>
           </div>
         </div>
-        <div class="col col-4">
+        <div class="col col-sm-4 col-12">
           <div class="category_item">
             <img
               src="https://cf.shopee.vn/file/sg-11134201-22110-a97vivh1vzjv0a"
@@ -205,7 +212,7 @@
       <section class="about my-4">
         <h2 class="heading">About</h2>
         <div class="row">
-          <div class="col col-8">
+          <div class="col col-12 col-sm-8">
             <div class="about_content flex-column">
               <div class="about_heading_content text-lg-center text-danger">
                 WELLCOM TO GLASSES SHOP
@@ -216,12 +223,12 @@
                 without the specialized lenses, they are sometimes used for
                 cosmetic purposes.
               </div>
-              <a href="./about.html" class="about_link text-danger"
+              <a href="./about.html" class="about_link text-danger toabout"
                 >View more to about glasses shop</a
               >
             </div>
           </div>
-          <div class="col col-4">
+          <div class="col col-sm-4 col-12">
             <div class="about_img_box overflow-hidden">
               <img
                 src="./image/514e2618929a435217c732cb4be71709.png"
@@ -235,7 +242,7 @@
       <section class="about my-4">
         <h2 class="heading">Services</h2>
         <div class="row">
-          <div class="col col-4">
+          <div class="col col-sm-4 col-12">
             <div class="service_content">
               <div class="service_icon">
                 <i class="fa-solid fa-wrench"></i>
@@ -252,7 +259,7 @@
               <a href="./service.html" class="service_link">View details</a>
             </div>
           </div>
-          <div class="col col-4">
+          <div class="col col-sm-4 col-12">
             <div class="service_content">
               <div class="service_icon">
                 <i class="fa-sharp fa-solid fa-bag-shopping"></i>
@@ -266,7 +273,7 @@
               <a href="./service.html" class="service_link">View details</a>
             </div>
           </div>
-          <div class="col col-4">
+          <div class="col col-sm-4 col-12">
             <div class="service_content">
               <div class="service_icon">
                 <i class="fa-solid fa-truck-fast"></i>
@@ -286,7 +293,7 @@
       <section class="about my-4">
         <h2 class="heading">Portfolio</h2>
         <div class="row">
-          <div class="col col-4">
+          <div class="col col-sm-4 col-12">
             <div class="portfolio_content">
               <img
                 src="/image/1586583703_warranty_1_by_1.png"
@@ -303,7 +310,7 @@
               >
             </div>
           </div>
-          <div class="col col-4">
+          <div class="col col-sm-4 col-12">
             <div class="portfolio_content">
               <img
                 src="/image/giaohannhantoanquoc.webp"
@@ -322,7 +329,7 @@
               >
             </div>
           </div>
-          <div class="col col-4">
+          <div class="col col-sm-4 col-12">
             <div class="portfolio_content">
               <img
                 src="image/giarepro.webp"
@@ -485,6 +492,7 @@
                         ></button>
                       </div>
                       <div class="modal-body">
+                        <div class="nofication_from"></div>
                         <form class="row g-3">
                           <div class="col-md-4">
                             <label for="validationDefault01" class="form-label"
@@ -574,7 +582,6 @@
                                 type="checkbox"
                                 value=""
                                 id="invalidCheck3"
-                                required
                               />
                               <label
                                 class="form-check-label"
@@ -585,7 +592,7 @@
                             </div>
                           </div>
                           <div class="col-12">
-                            <button class="btn btn-primary" type="submit">
+                            <button class="btn btn-primary" type="submit" id="submit_pricing">
                               Submit form
                             </button>
                           </div>
@@ -637,7 +644,7 @@
       <section class="about my-4">
         <h2 class="heading">Contact</h2>
         <div class="row">
-          <div class="col col-6">
+          <div class="col col-sm-6 col-12">
             <div class="contact_info">
               <h3 class="contact_heading">Glasses Shop</h3>
               <ul class="contact_info_list">
@@ -653,34 +660,26 @@
               </ul>
             </div>
           </div>
-          <div class="col col-6">
-            <form>
-              <div class="row mb-3">
-                <label for="inputEmail3" class="col-sm-2 col-form-label"
-                  >Email</label
-                >
-                <div class="col-sm-10">
-                  <input type="email" class="form-control" id="inputEmail3" />
-                </div>
-              </div>
-              <div class="row mb-3">
-                <label for="inputPassword3" class="col-sm-2 col-form-label"
-                  >FullName</label
-                >
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="inputPassword3" />
-                </div>
-              </div>
-              <div class="form-floating">
-                <textarea
-                  class="form-control"
-                  placeholder="Leave a comment here"
-                  id="floatingTextarea"
-                ></textarea>
-                <label for="floatingTextarea">Comments</label>
-              </div>
-              <button type="submit" class="btn btn-danger mt-3">Submit</button>
-            </form>
+          <div class="col col-sm-6 col-12">
+            <div class="contact_content">
+              <div class="nofication"></div>
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Comments</label>
+                      </div>
+                    <div  class="btn btn-danger mt-2" id="contact_submit">Contact</div>
+                  </form>
+            </div>
           </div>
         </div>
       </section>
@@ -688,7 +687,7 @@
     <footer class="bg-dark text-white">
       <div class="container">
         <div class="row">
-          <div class="col col-6">
+          <div class="col col-sm-6 col-12">
             <div class="footer_info">
               <ul class="contact_info_list">
                 <li class="contact_info_item">glasess_shop@gmail.com</li>
@@ -703,7 +702,7 @@
               </ul>
             </div>
           </div>
-          <div class="col col-6">
+          <div class="col col-sm-6 col-12">
             <div class="footer_social_media">
               <ul class="social_list">
                 <li class="social_list_item">

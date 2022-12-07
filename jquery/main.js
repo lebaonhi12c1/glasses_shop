@@ -40,4 +40,48 @@ $(function(){
         console.log($(element).text(),sessionStorage.getItem('active_header'))
         $(element).text() === sessionStorage.getItem('active_header') &&$(element).addClass('text-danger')
     });
+    $('.btn_shopnow').each(function (index, element) {
+        // element == this
+        $(element).click(function (e) { 
+            sessionStorage.setItem('active_header','Product')
+        });
+    });
+    $('.toabout').click(function (e) { 
+        sessionStorage.setItem('active_header','About')
+        
+    });
+    $('.service_link').each(function (index, element) {
+        $(element).click(function (e) { 
+            console.log(element)
+            sessionStorage.setItem('active_header','Services')
+        });
+        
+    });
+    $('.portfolio_link').each(function (index, element) {
+        $(element).click(function (e) { 
+            console.log(element)
+            sessionStorage.setItem('active_header','Portfolio')
+        });
+        
+    });
+    $('#contact_submit').click(function (e) { 
+        if($('#exampleInputEmail1').val() =="" || $('exampleInputPassword1').val() == ""){
+            $('.nofication').text('Email, name cannot be empty');
+            $('.nofication').css('color','red');
+        }
+        else{
+            $('.nofication').text('Submit successfully !!');
+            $('.nofication').css('color','green');
+            $('#exampleInputEmail1').val('')
+            $('#exampleInputPassword1').val('')
+            setTimeout(function(){
+                $('.nofication').text('');
+            },1000)
+        }
+    });
+    if($(window).width() < 500){
+        $('.navbar').addClass('mobile')
+        $('.header').css('height','150px');
+        $('.banner_container').css('margin-top','180px');
+    }
 })
